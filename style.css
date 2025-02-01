@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body{
+    background-color: #e8facb;
+}
+.choice:hover{
+    opacity: 5;
+    cursor:pointer;   
+    border-radius: 100%;
+    background-color: black;
+    
+}
+
+.choice{
+    height: 16vw;
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    height: 12vh;    
+    background-color: #DDDBF1;
+}
+
+/* Jis Div ko blur krna hai  */
+
+.three{
+    /* background-color: turquoise; */
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+    
+}
+
+main .three img{
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;    
+    margin: 30px;
+    object-fit: cover;  
+    border: 10% solid black;
+    background-color: violet;
+}
+
+.score-board{    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.score{
+    height: 10vw;
+    width: 10vw;
+    margin: 0 70px;
+    display: flex inline; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    line-height : 20px;
+    font-size: 5vh;
+    
+    p {
+        margin-bottom:30%;
+    }    
+}
+
+
+#user-score, #Computer-score{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.button-block{
+    
+    color: white;
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    gap: 50px;
+}
+
+#button1{
+    color:#000000 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 40vw;
+    border-radius: 20px;
+    background-color: #f789e4;
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+}
+
+.button2{
+    background-color: #1b4945;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 40vw;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.green{
+    background-color: rgb(32, 116, 32);
+    color: white;
+}
+
+.red{
+    background-color: rgb(253, 96, 96);
+    color: rgb(0, 0, 0);    
+}
+
+.hide{
+    display: none;
+}
+
+.selector-popup{
+    height: 15vh;
+    width: 100vw;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-weight: 500;
+    /* background-color: #DDDBF1; */
+}
